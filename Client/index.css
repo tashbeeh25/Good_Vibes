@@ -1,14 +1,6 @@
 /* GENERAL CSS START --------------------------------------------------------------------------------------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
-/* #banner {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 800;
-    font-size: 5rem;
-    color:black;
-    margin: 3rem 1rem 3rem 1rem;
-} */
-
 body {
     font-family: 'Nanum Gothic', sans-serif;
     margin: 0;
@@ -38,24 +30,11 @@ header {
    left: 25%;
 }
 
-#postTitle {
+#postTitle, #postBody {
     width: 50% !important;
     overflow: auto;
-    
     padding: 0.5%;
     margin: 1rem;
-
-    font-family: 'Nanum Gothic', sans-serif
-}
-
-#postBody {
-    overflow: auto;
-    width: 50% !important;
-
-    padding: 0.5%;
-    margin: 1rem !important; 
-
-    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .postText {
@@ -89,13 +68,6 @@ article h1 {
 }
 
 #addGif {
-    /* width: 6rem;
-    padding: 1rem;
-    margin: 0rem 1rem 1rem 1rem;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.2rem; */
     width: 6rem;
     padding: 1rem;
     margin: 0rem 1rem 1rem 1rem;
@@ -103,23 +75,10 @@ article h1 {
     font-size: 1rem;
     border: none;
     border-radius: 0.2rem;
-    /* align-self: center; */
     position: relative;
     left: 20%;
     
 }
-
-/* #Discard {
-    width: 6rem;
-    background-color: rgb(165, 0, 0);
-    color: white;
-    padding: 1rem;
-    margin: 1rem 0rem 1rem 1rem;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.2rem;
-} */
 
 #Discard, #Post, #Post2 {
     width: 6rem;
@@ -175,19 +134,11 @@ article h1 {
 
 #emojiContainer {
     display: flex;
-    /* background-color: white; */
     margin: 0rem;
     justify-content: center;
 }
 
 .smallEmojiContainer {
-    /* display: grid;
-    /* background-color: white; */
-    /* justify-items: center;
-    align-items: center;
-    padding: 0.1rem;
-    height: 3rem;
-    width: 2rem;  */
     display: grid;
     background-color: rgba(255, 255, 255, 0.427);
     justify-items: center;
@@ -198,6 +149,5 @@ article h1 {
     width: 50px;
     border: 1px solid transparent;
     border-radius: 50%; 
-}
 }
 /* EMOJI CSS END --------------------------------------------------------------------------------------------------------------------------------------- */
