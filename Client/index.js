@@ -22,31 +22,6 @@ function insertPost(post){
         let articleBody = document.createElement("p");
         let articleGIF = document.createElement("img");
 
-        // // Create an object to store names, codes, and counters for emojis
-        // emojiList = [{name:"love", code:"&#128525", count:0},
-        //              {name:"cry", code:"&#128557", count:0},
-        //              {name:"laugh", code:"&#128514", count:0},
-        //              {name:"embarassed", code:"&#128517", count:0}]
-        
-        // // IMPORTANT, naming variables dynamically doesn't work here (I don't know why) so instead everything must be typed out
-        // let loveEmoji = document.createElement("div");
-        // let loveEmojiCounter = document.createElement("div");
-        // let loveEmojiContainer = document.createElement("div");
-
-        // let cryEmoji = document.createElement("div");
-        // let cryEmojiCounter = document.createElement("div");
-        // let cryEmojiContainer = document.createElement("div");
-
-        // let laughEmoji = document.createElement("div");
-        // let laughEmojiCounter = document.createElement("div");
-        // let laughEmojiContainer = document.createElement("div");
-
-        // let embarrassedEmoji = document.createElement("div");
-        // let embarrassedEmojiCounter = document.createElement("div");
-        // let embarrassedEmojiContainer = document.createElement("div");
-
-        // let emojiContainer = document.createElement("div");
-
         // Get content for elements declared above
         let titles = postObject.title;
         let bodys = postObject.body;
@@ -60,46 +35,6 @@ function insertPost(post){
         articleHead.textContent = titles;
         articleBody.textContent = bodys;
 
-        // // // Set attributes for emojis including their image src, id, class, and number of clicks - doing this dynamically doesn't work
-        // loveEmoji.innerHTML = "&#128525;";
-        // loveEmoji.setAttribute('id', 'love');
-        // loveEmojiContainer.setAttribute('class', 'smallEmojiContainer');
-        // loveEmojiCounter.textContent = 0;
-
-        // cryEmoji.innerHTML = "&#128557;";
-        // cryEmoji.setAttribute('id', 'cry');
-        // cryEmojiContainer.setAttribute('class', 'smallEmojiContainer');
-        // cryEmojiCounter.textContent = 0;
-
-        // laughEmoji.innerHTML = "&#128514;";
-        // laughEmoji.setAttribute('id', 'laugh');
-        // laughEmojiContainer.setAttribute('class', 'smallEmojiContainer');
-        // laughEmojiCounter.textContent = 0;
-
-        // embarrassedEmoji.innerHTML = "&#128517;";
-        // embarrassedEmoji.setAttribute('id', 'embarrassed');
-        // embarrassedEmojiContainer.setAttribute('class', 'smallEmojiContainer');
-        // embarrassedEmojiCounter.textContent = 0;
-
-        // emojiContainer.setAttribute('id','emojiContainer');
-
-        // // Adding emojis to their individual containers, then adding these containers to the overall emoji container
-        // loveEmojiContainer.appendChild(loveEmoji);
-        // loveEmojiContainer.appendChild(loveEmojiCounter);
-        // emojiContainer.appendChild(loveEmojiContainer);
-
-        // cryEmojiContainer.appendChild(cryEmoji);
-        // cryEmojiContainer.appendChild(cryEmojiCounter);
-        // emojiContainer.appendChild(cryEmojiContainer);
-
-        // laughEmojiContainer.appendChild(laughEmoji);
-        // laughEmojiContainer.appendChild(laughEmojiCounter);
-        // emojiContainer.appendChild(laughEmojiContainer);
-
-        // embarrassedEmojiContainer.appendChild(embarrassedEmoji);
-        // embarrassedEmojiContainer.appendChild(embarrassedEmojiCounter);
-        // emojiContainer.appendChild(embarrassedEmojiContainer);
-
         // ATHEER START //
         let showComments = document.createElement("input");
         let commentForm = document.createElement("div"); 
@@ -108,10 +43,13 @@ function insertPost(post){
         let commentContainer = document.createElement("section"); //Creates section where all comments can be viewed
         
         showComments.setAttribute("type", "button");
+        showComments.setAttribute('class', 'commentBtn')
         showComments.id = `showComments${i}`;
         showComments.setAttribute("onclick", "showComments(this)");
         showComments.style.cssText = "width: 10rem; padding: 1rem 1rem 1rem 0rem; margin: 0rem 1rem 1rem 1rem; font-family: 'Nanum Gothic', sans-serif; font-size: 1rem; border: none; border-radius: 0.2rem;"
         showComments.style.cursor = "pointer";
+        commentField.setAttribute('class', 'addComment');
+        commentContainer.setAttribute('class', 'commentContainer')
 
         commentContainer.id = `commentContainer${i}`; // assigns comment container a unique id based on the position of the post
         commentContainer.style.display = "none";
@@ -124,9 +62,10 @@ function insertPost(post){
         commentSubmit.setAttribute("type", "button");  
         commentSubmit.setAttribute("value", "Add Comment");
         commentSubmit.setAttribute("onclick", "postComment(this)")
+        commentSubmit.setAttribute("class", "commentSubmit")
         commentSubmit.style.cssText = "width: 10rem; padding: 1rem 0rem 1rem 1rem; margin: 0rem 1rem 1rem 1rem; font-family: 'Nanum Gothic', sans-serif; font-size: 1rem; border: none; border-radius: 0.2rem;"
         commentSubmit.id = `commentSubmit${i}`;
-
+        commentForm.setAttribute('class', 'commentForm')
 
         commentForm.appendChild(commentField);
         commentForm.appendChild(commentSubmit);
@@ -157,31 +96,6 @@ function insertPost(post){
         postContainer.appendChild(showComments);
         postContainer.appendChild(commentContainer);
         // ATHEER END //
-
-        // if (articleHead.textContent !== "" || articleBody.textContent !== ""){
-        //     article.appendChild(emojiContainer);
-        // }
-
-        // // Make cursor into a pointer over emojis
-        // loveEmoji.style.cursor = "pointer";
-        // cryEmoji.style.cursor = "pointer";
-        // laughEmoji.style.cursor = "pointer";
-        // embarrassedEmoji.style.cursor = "pointer";
-
-
-        // // Increase count upon clicking
-        // loveEmoji.addEventListener("click", e => {
-        //     loveEmojiCounter.textContent = parseInt(loveEmojiCounter.textContent) + 1;
-        // })
-        // cryEmoji.addEventListener("click", e => {
-        //     cryEmojiCounter.textContent = parseInt(cryEmojiCounter.textContent) + 1;
-        // })
-        // laughEmoji.addEventListener("click", e => {
-        //     laughEmojiCounter.textContent = parseInt(laughEmojiCounter.textContent) + 1;
-        // })
-        // embarrassedEmoji.addEventListener("click", e => {
-        //     embarrassedEmojiCounter.textContent = parseInt(embarrassedEmojiCounter.textContent) + 1;
-        // })
     }
 }
 // INSERT PREVIOUS POSTS INTO POSTCONTAINER END -------------------------------------------------------------------------------------------------- //
@@ -325,147 +239,6 @@ gifButton.addEventListener("click", e => {
 post.addEventListener("click", renderPost);
 post.addEventListener("click", sendPost);
 
-    
-// function makePost(e, gifUrl = undefined){
-//     e.preventDefault();
-
-//     // Grab textContent of post title and post body
-//     // Ensure you use .value to access the input the user makes
-//     let postTitle = document.getElementById("postTitle").value;
-//     let postBody = document.getElementById("postBody").value;
-    
-//     // Only grabs a gif if the user has attached one
-//     if (gifUrl !== undefined){
-//         let articleGIF = document.createElement("img");
-//         articleGIF.src = gifUrl;
-//     }
-
-//     // Update page with new post - create article, h2, p, emojiContainer (div), and emojis for new post
-//     let article = document.createElement("article");
-//     let articleHead = document.createElement("h2");
-//     let articleBody = document.createElement("p");
-
-//     articleHead.textContent = postTitle;
-//     articleBody.textContent = postBody;
-
-//     // Append title, body and image to article
-//     article.appendChild(articleHead);
-//     article.appendChild(articleBody);
-//     if (gifUrl !== undefined){
-//         article.appendChild(articleGIF);
-//     }
-
-//     addEmojiBar(article, articleHead, articleBody)
-    
-//     // Render entire post on page
-//     postContainer.appendChild(article);
-
-//     // Clear text from input forms
-//     document.getElementById("postTitle").value = "";
-//     document.getElementById("postBody").value = "";
-//     gifButtonClickCounter--
-// }
-
-//     // Grab textContent of post title and post body
-//     // Ensure you use .value to access the input the user makes
-//     let postTitle = document.getElementById("postTitle").value;
-//     let postBody = document.getElementById("postBody").value;
-//     // Only grabs a gif if the user has attached one
-//     if (document.getElementById('postGIF')){
-//         let gifUrl = document.getElementById('postGIF').src;
-//     }
-
-//     // Update page with new post - create article, h2, p, emojiContainer (div), and emojis for new post
-//     let article = document.createElement("article");
-//     let articleHead = document.createElement("h2");
-//     let articleBody = document.createElement("p");
-//     let articleGIF = document.createElement("img");
-
-//     // // Create an object to store names, codes, and counters for emojis
-//     // emojiList = [{name:"love", code:128525, count:0},
-//     //              {name:"cry", code:128557, count:0},
-//     //              {name:"laugh", code:128514, count:0},
-//     //              {name:"embarrassed", code:128517, count:0}]
-
-//     // // List of emojis, used to dynamically define all emoji elements, also allows the addition of more emojis with relative ease
-//     // // Note that the variables must be declared gloablly with var for this to work, const and let result in the declaration being undefined
-//     // for (let emoji of emojiList){
-//     //     eval('var ' + emoji.name + 'Emoji' + '= ' + 'document.createElement("div")' + ';');
-//     //     eval('var ' + emoji.name + 'EmojiCounter' + '= ' + 'document.createElement("div")' + ';');
-//     //     eval('var ' + emoji.name + 'EmojiContainer' + '= ' + 'document.createElement("div")' + ';');
-//     // }
-
-//     // let emojiContainer = document.createElement("div");
-
-//     // Populate elements
-//     articleHead.textContent = postTitle;
-//     articleBody.textContent = postBody;
-//     // Only assigns gif if the user has attached one
-//     if (document.getElementById('postGIF')){
-//         articleGIF = postGIF;
-//     }
-
-//     // // Set attributes for emojis dynamically including their image src, id, class, and number of clicks
-//     // for (let emoji of emojiList){
-//     //     // The below line only works if innerHTML is used instead of textContent
-//     //     eval(`${emoji.name}Emoji.innerHTML = "&#${emoji.code};";`);
-//     //     eval(`${emoji.name}Emoji.setAttribute('id', "${emoji.name}");`);
-//     //     eval(`${emoji.name}EmojiContainer.setAttribute('class', 'smallEmojiContainer');`);
-//     //     eval(`${emoji.name}EmojiCounter.textContent = ${emoji.count};`)
-//     // }
-
-//     // emojiContainer.setAttribute('id','emojiContainer');
-
-//     // // Adding emojis to their individual containers, then adding these containers to the overall emoji container
-//     // for (let emoji of emojiList){
-//     //     eval(`${emoji.name}EmojiContainer.appendChild(${emoji.name}Emoji);`);
-//     //     eval(`${emoji.name}EmojiContainer.appendChild(${emoji.name}EmojiCounter);`);
-//     //     eval(`emojiContainer.appendChild(${emoji.name}EmojiContainer);`)
-//     // }
-
-//     // Append title, body and image to article
-//     article.appendChild(articleHead);
-//     article.appendChild(articleBody);
-//     article.appendChild(articleGIF);
-//     // Only display emojis if the user posts something
-//     // if (articleHead.textContent !== "" || articleBody.textContent !== ""){
-//     //     article.appendChild(emojiContainer);
-//     // }
-//     addEmojiBar(article, articleHead, articleBody)
-//     postContainer.appendChild(article);
-
-
-//     // Clear text from input forms
-//     document.getElementById("postTitle").value = "";
-//     document.getElementById("postBody").value = "";
-
-
-//     // // Add clicking functionality to emojis
-//     // loveEmoji.addEventListener("click", e => {
-//     //     loveEmojiCounter.textContent = parseInt(loveEmojiCounter.textContent) + 1;
-//     // })
-//     // cryEmoji.addEventListener("click", e => {
-//     //     cryEmojiCounter.textContent = parseInt(cryEmojiCounter.textContent) + 1;
-//     // })
-//     // laughEmoji.addEventListener("click", e => {
-//     //     laughEmojiCounter.textContent = parseInt(laughEmojiCounter.textContent) + 1;
-//     // })
-//     // embarrassedEmoji.addEventListener("click", e => {
-//     //     embarrassedEmojiCounter.textContent = parseInt(embarrassedEmojiCounter.textContent) + 1;
-//     // })
-
-
-
-//     gifButtonClickCounter--
-// });
-// // ADD NEW POST FUNCTIONALITY END ------------------------------------------------------------------------------------------------------------------- //
-
-
-// const loveEmoji = document.getElementById('love')
-// loveEmoji.addEventListener("click", e => {
-//     loveEmojiCounter++;
-// })
-
 
 // SEND TO SERVER FUNCTIONALITY START ------------------------------------------------------------------------------------------------------------------- //
 // Upon submit, send user input to server
@@ -491,10 +264,6 @@ function sendPost(e, gifUrl=undefined){
     .then(r => r.json())
     .catch(console.warn);
 
-    // // Clear text from input forms, remove all gifs, remove gif search bar
-    // // DO THIS ONLY AFTER ALL FUNCTIONALITY HAS BEEN INCLUDED
-    //document.getElementById("postTitle").value = "";
-    //document.getElementById("postBody").value = "";
     
     // All variabes to be cleared are global, except for the searchbar area
     let searchBarArea = document.getElementById("searchBar");
@@ -505,32 +274,7 @@ function sendPost(e, gifUrl=undefined){
     gifContainer.innerHTML = "";
     searchBarArea.innerHTML = "";
 }
-//     e.preventDefault();
 
-//     let postTitle = document.getElementById("postTitle").value;
-//     let postBody = document.getElementById("postBody").value;
-//     // Create empty variable to store gifUrl, but only use it if a user attaches a gif
-//     let gifUrl;
-//     if (document.getElementById('postGIF')){
-//         gifUrl = document.getElementById("postGIF").src;
-//     }
-
-//     // Creating post object to store user post
-//     // Sends an empty gif URL if user doesn't choose a gif
-//     let post = {title: postTitle, body: postBody, gifUrl: gifUrl}
-
-//     let options = {
-//         method: 'POST',
-//         headers: {
-//             'ContentType': 'application/json'
-//         },
-//         body: JSON.stringify(post)
-//     }
-    
-//     fetch('http://localhost:3000/posts', options)
-//     .then(r => r.json())
-//     .catch(console.warn);
-// });
 // SEND TO SERVER FUNCTIONALITY END ------------------------------------------------------------------------------------------------------------------- //
 
 

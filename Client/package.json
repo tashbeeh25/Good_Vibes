@@ -1,0 +1,25 @@
+{
+  "name": "Client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter=nyan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.1.0",
+    "puppeteer-to-istanbul": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nyc": "^15.1.0",
+    "puppeteer": "^5.2.1",
+    "rewire": "^5.0.0"
+  }
+}
