@@ -1,0 +1,203 @@
+/* GENERAL CSS START --------------------------------------------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* #banner {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+    color:black;
+    margin: 3rem 1rem 3rem 1rem;
+} */
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(115, 196, 240, 0.591);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+#banner {
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+    margin: 3rem 1rem 3rem 1rem;
+}
+
+#formContainer {
+    margin-top: 120px;
+   position: relative;
+   left: 25%;
+}
+
+#postTitle {
+    width: 50% !important;
+    overflow: auto;
+    
+    padding: 0.5%;
+    margin: 1rem;
+
+    font-family: 'Nanum Gothic', sans-serif
+}
+
+#postBody {
+    overflow: auto;
+    width: 50% !important;
+
+    padding: 0.5%;
+    margin: 1rem !important; 
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.postText {
+    margin: 1rem;
+}
+
+article {
+    width: 70%;
+    background-color: rgba(20, 165, 191, 0.132);
+    padding: 1rem 1rem 0rem 1rem;
+    margin: 1rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;   
+}
+
+article img {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+article h1 {
+    text-transform: capitalize;
+    font-size: 26px;
+    text-align: center;
+}
+
+#postContainer {
+    position: relative;
+    left: 13%;
+}
+
+#addGif {
+    /* width: 6rem;
+    padding: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem; */
+    width: 6rem;
+    padding: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    /* align-self: center; */
+    position: relative;
+    left: 20%;
+    
+}
+
+/* #Discard {
+    width: 6rem;
+    background-color: rgb(165, 0, 0);
+    color: white;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+} */
+
+#Discard, #Post, #Post2 {
+    width: 6rem;
+    color: white;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    position: relative;
+    left: 12%;
+    cursor: pointer;
+}
+
+#Discard {
+    background-color: rgb(93, 207, 242);
+}
+
+#Post, #Post2 {
+    background-color: rgb(5, 52, 102);
+}
+
+#gifContainer, #addGifForm {
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+#titleCount, #bodyCount {
+    margin: -0.5rem 0rem 1rem 1rem;
+    font-size: 0.7rem;
+}
+/* GENERAL CSS END --------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+#love:hover, #cry:hover, #laugh:hover, #embarrassed:hover {
+    animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-10px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    60% {
+        transform: translateY(-7px);
+    }
+    80% {
+        transform: translateY(0px);
+    }
+} 
+
+#emojiContainer {
+    display: flex;
+    /* background-color: white; */
+    margin: 0rem;
+    justify-content: center;
+}
+
+.smallEmojiContainer {
+    /* display: grid;
+    /* background-color: white; */
+    /* justify-items: center;
+    align-items: center;
+    padding: 0.1rem;
+    height: 3rem;
+    width: 2rem;  */
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.427);
+    justify-items: center;
+    align-items: center;
+    padding: 0.1rem;
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%; 
+}
+}
+/* EMOJI CSS END --------------------------------------------------------------------------------------------------------------------------------------- */

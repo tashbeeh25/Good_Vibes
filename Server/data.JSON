@@ -1,0 +1,246 @@
+[
+  {
+    "title": "My first post",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae felis consectetur, auctor enim non, ultricies ligula. Donec dapibus commodo mattis. Suspendisse potenti. Sed vel risus in arcu consectetur sagittis efficitur in risus. Morbi facilisis sem et eros efficitur molestie. Pellentesque eget neque eros. Donec scelerisque consequat interdum. Maecenas ultrices vestibulum purus, in dignissim nibh ultricies a. Proin mattis neque orci. Phasellus nibh velit, tempor non blandit et, cursus vitae risus. Mauris ut turpis a erat blandit luctus et eu diam. Aliquam consectetur interdum lectus, et ultrices mi dignissim nec. Proin sodales ac justo eget fringilla. Curabitur varius metus tortor, ac mollis quam accumsan viverra. Maecenas fermentum rhoncus rhoncus.",
+    "gifUrl": "https://media3.giphy.com/media/gw3IWyGkC0rsazTi/giphy.gif?cid=abae41c13l6oh8ya0xa0mrobk6dn2debtrt6ymjuqgnch8r4&rid=giphy.gif",
+    "comments": [
+      "First Comment",
+      "Here's a comment",
+      "let's hope it sticks after refresh!",
+      "can it stick after closing the server though?",
+      "Yayyyy!",
+      "Thursday is upon us",
+      "",
+      "",
+      "Add new comment",
+      "Add new comment",
+      "HellO!"
+    ]
+  },
+  {
+    "title": "Text only post",
+    "body": "Only text",
+    "comments": []
+  },
+  {
+    "title": "Text and gif post",
+    "body": "Another post",
+    "gifUrl": "https://media0.giphy.com/media/YkdjQNu9YCSGNpELDt/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Text and gif post duplicate",
+    "body": "Another post",
+    "gifUrl": "https://media0.giphy.com/media/YkdjQNu9YCSGNpELDt/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Text and gif post duplicate",
+    "body": "Another post",
+    "gifUrl": "https://media0.giphy.com/media/VH8QBcXLrfz1u/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Text and gif post duplicate",
+    "body": "Another post",
+    "gifUrl": "https://media0.giphy.com/media/VH8QBcXLrfz1u/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "",
+    "gifUrl": "https://media1.giphy.com/media/146Sbu2iop2OC4/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "",
+    "gifUrl": "https://media1.giphy.com/media/146Sbu2iop2OC4/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "cheese",
+    "gifUrl": "https://media3.giphy.com/media/l1L2UkgpuiE4U/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "cheese",
+    "gifUrl": "https://media3.giphy.com/media/l1L2UkgpuiE4U/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "",
+    "gifUrl": "https://media2.giphy.com/media/SFRhYgSElTfvG/200.gif?cid=7f6a906a20lp96jvswnlegtxr8112fy4qhqcm25ehdeciw1o&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "",
+    "gifUrl": "https://media2.giphy.com/media/SFRhYgSElTfvG/200.gif?cid=7f6a906a20lp96jvswnlegtxr8112fy4qhqcm25ehdeciw1o&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "",
+    "gifUrl": "https://media2.giphy.com/media/U1rlk8zdcAwbm/200.gif?cid=7f6a906a4f340e35kxgs8nr6drhuibl7w1uy8wqzmhg4xnci&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "milkshake",
+    "gifUrl": "https://media2.giphy.com/media/rC5Kmxqc1tDnG/200.gif?cid=7f6a906atspzlobeen2swopxbooh91bn4noscg3g2opmr3fs&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "milkshake2",
+    "gifUrl": "https://media2.giphy.com/media/rC5Kmxqc1tDnG/200.gif?cid=7f6a906atspzlobeen2swopxbooh91bn4noscg3g2opmr3fs&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "milkshake2",
+    "gifUrl": "https://media3.giphy.com/media/de5bARu0SsXiU/200.gif?cid=7f6a906aaqqnzh60d8r3kty4zyv3y732yreqlof91pk0e7y3&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "milkshake2",
+    "gifUrl": "https://media3.giphy.com/media/de5bARu0SsXiU/200.gif?cid=7f6a906aaqqnzh60d8r3kty4zyv3y732yreqlof91pk0e7y3&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "",
+    "gifUrl": "https://media1.giphy.com/media/URpJWGUodqQ5uXqBf8/200.gif?cid=7f6a906ahpbovykpx806s61rkb7lktrq65kyadzesd93tafu&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "",
+    "gifUrl": "https://media1.giphy.com/media/URpJWGUodqQ5uXqBf8/200.gif?cid=7f6a906ahpbovykpx806s61rkb7lktrq65kyadzesd93tafu&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "",
+    "gifUrl": "https://media1.giphy.com/media/k88beywQDnV3G/200.gif?cid=7f6a906alvto6k0lr549sdcuqsvdsz27j0q1uxhp6xawyjpy&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Test",
+    "comments": []
+  },
+  {
+    "title": "Hello again",
+    "body": "Test",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "",
+    "gifUrl": "https://media1.giphy.com/media/146Sbu2iop2OC4/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "hello",
+    "body": "",
+    "gifUrl": "https://media0.giphy.com/media/YkdjQNu9YCSGNpELDt/200.gif?cid=7f6a906apnkwfc36bfmcmgi56o1z6amtnl6r1cwdhrborxc0&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Test",
+    "gifUrl": "https://media0.giphy.com/media/VH8QBcXLrfz1u/200.gif?cid=7f6a906afojd1qfwzxp6rk1p9yjq0o7retv1ln9b8f8h37ng&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Test",
+    "gifUrl": "https://media0.giphy.com/media/VH8QBcXLrfz1u/200.gif?cid=7f6a906afojd1qfwzxp6rk1p9yjq0o7retv1ln9b8f8h37ng&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Test",
+    "gifUrl": "https://media0.giphy.com/media/1uPiL9Amv5zkk/200.gif?cid=7f6a906aagn47npnnq5oluxy9ggeu3phxbfx9dpleqq3ju74&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Test",
+    "gifUrl": "https://media0.giphy.com/media/VH8QBcXLrfz1u/200.gif?cid=7f6a906afojd1qfwzxp6rk1p9yjq0o7retv1ln9b8f8h37ng&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Test",
+    "gifUrl": "https://media0.giphy.com/media/1uPiL9Amv5zkk/200.gif?cid=7f6a906aagn47npnnq5oluxy9ggeu3phxbfx9dpleqq3ju74&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Test",
+    "gifUrl": "https://media3.giphy.com/media/l2YWCZ2h1jrGAne12/200.gif?cid=7f6a906aolmzpswsd1q29eenj3mfsy5tnfndrptefvzfqkr3&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "",
+    "body": "Test",
+    "gifUrl": "https://media0.giphy.com/media/YSB6SGgVKmfGpPfGyl/200.gif?cid=7f6a906a6whne42uyecaw2ydgwy9is278h633iyslntfxlpc&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "dododododo",
+    "body": "Test",
+    "comments": []
+  },
+  {
+    "title": "dododododo",
+    "body": "Test",
+    "comments": []
+  },
+  {
+    "title": "fofo",
+    "body": "momom",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "Cheese",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "potato",
+    "comments": []
+  },
+  {
+    "title": "Hello",
+    "body": "potato",
+    "gifUrl": "https://media3.giphy.com/media/26tnaysRvVNVxq7VS/200.gif?cid=7f6a906a8tljht9evfoikdcgu9xjzg5a9khpqtd63ye3lkig&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "It's finally Friday!",
+    "body": "I'm absolutely tired",
+    "gifUrl": "https://media2.giphy.com/media/xT8qBvH1pAhtfSx52U/200.gif?cid=7f6a906a01b55vgvakjyfk3p5hdabaayxaxo7tc6repzv60p&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Tired",
+    "body": "Super tired",
+    "gifUrl": "https://media0.giphy.com/media/NWg7M1VlT101W/200.gif?cid=7f6a906a01b55vgvakjyfk3p5hdabaayxaxo7tc6repzv60p&rid=200.gif",
+    "comments": []
+  },
+  {
+    "title": "Not long until the presentation!",
+    "body": "Excited for the weekend",
+    "gifUrl": "https://media1.giphy.com/media/26tPghhb310muUkEw/200.gif?cid=7f6a906akx991h7sss7ouufid96m3y3n813pn6qkf56bmogn&rid=200.gif",
+    "comments": []
+  }
+]
