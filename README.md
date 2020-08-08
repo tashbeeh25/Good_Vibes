@@ -1,5 +1,6 @@
 # Good Vibes 
-## by Anna, Yassine, Tashbeeh and Atheer
+
+by Anna, Yassine, Tashbeeh and Atheer
 
 Overview
 This is a web app for making anonymous posts to a website. Users can add a single gif to their post and all posts can be reacted to through emojis. A comments section is included under each post for users to comment anonymously on each other's posts.
